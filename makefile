@@ -1,7 +1,8 @@
 draft_README.md:
-	##	echo "This is a peer graded assingment from the Unix course from Coursera." > README.md
-	##	echo "The title of the project is Peer Graded Assignment." > README.md
-	##	echo "It contains 26 lines of code and was ran on Aug. 18, 2021 at 9:52am pst." > README.md
+	touch README.md
 
-clean:
-	rm README.md
+README.md:
+	## This is a peer graded assignment from the Unix course from Coursera
+	## The title of this project is Peer Graded Assignment.
+	## It contains 26 lines of code and was ran on Aug. 18, 2021 pst.
+
